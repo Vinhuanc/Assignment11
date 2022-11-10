@@ -28,3 +28,17 @@ int main(){
     displayMovie(movie1);
     displayMovie(movie2);
 }
+//Program #1
+//Write a program that uses a structure to pass around Movie Data information. Your program will have a function that prints all of the information about the structure, which will be called from your main function. Your main function will create two Movie Data variables, initializing them before calling the display function (one call per variable). One of your variables will be initialized using an initialization list, while the other will be initialized member by member. Please name the fields of your structure: title, director, year, and runtime. Please name your structure movieData, and the name of your display function displayMovie. Pass your structure to your function by constant reference parameter. You may use 2 movies of your choice to fill the data for the variables.
+//Sample Outputs:
+//Title
+//Director
+//Released
+//Running Time: 88 minutes
+//: War of the Worlds : Byron Haskin
+//: 1953
+//Title
+//Director
+//Released
+//Running Time: 118 minutes
+//Press any key to continue . . .
