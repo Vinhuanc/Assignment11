@@ -20,8 +20,16 @@ void getPlayers(player &p){
         cin>>players[i].name;
         cout<<"Player's number: ";
         cin>>players[i].number;
+        if(players[i].number<0){
+            cout<<"Error. Player's number cannot be less than 0.  Re-enter:";
+            cin>>players[i].number;
+        }
         cout<<"Points scored: ";
         cin>>players[i].points;
+        if(players[i].points<0){
+            cout<<"Error. Player's points cannot be less than 0.  Re-enter:";
+            cin>>players[i].points;
+        }
     }
 }
 
